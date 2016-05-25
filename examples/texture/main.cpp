@@ -106,7 +106,7 @@ public:
     dpLayout.samplers(1);
     descPool = vku::descriptorPool(device(), dpLayout);
 
-    vku::descriptorset 
+    //vku::descriptorset 
 
     pipe.allocateDescriptorSets(descPool, 2);
     pipe.updateDescriptorSets(uniform_buffer);
